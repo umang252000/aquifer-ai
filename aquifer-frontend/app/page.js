@@ -15,7 +15,7 @@ export default function Home() {
   const [error, setError] = useState(null);
   const [logs, setLogs] = useState([]);
 
-  const API_BASE = "https://8000--019cc6a4-8e6a-7275-b239-26c0c6240956.us-east-1-01.gitpod.dev";
+  const API_BASE = "https://aquifer-ai.onrender.com";
 
   const startProcurement = async () => {
 
